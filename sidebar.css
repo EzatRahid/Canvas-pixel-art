@@ -19,13 +19,17 @@
     padding-left: 32px;
     cursor: pointer;
     box-shadow:  40px 1px 53px -48px rgba(0,0,0,0.2); 
+    transition: 0.4s all ease;
     
 }
+
+
 
 li{
     margin: 48px 0;
    margin-right: 48px;
    transition: 0.4s all ease;
+   
 }
 
 i{
@@ -54,9 +58,8 @@ i{
 @media only screen and  (max-width:768px){
     .container span{
         display: none;
-        transition: 0.4s all ease;
     }
     .container{
-        box-shadow:  40px 1px 53px -48px rgba(0,0,0,0.5); 
+        box-shadow:  40px 1px 53px -48px rgba(0,0,0,0.2); 
     }
 }
